@@ -1,6 +1,6 @@
 import { Text, View, StyleSheet } from "react-native";
-import { light, dark } from "../assets/colors/colors";
 import CarSelection from "@/navigation/screens/CarSelectionScreen";
+import {light, dark} from "../assets/colors/colors"
 
 
 export default function Index() {

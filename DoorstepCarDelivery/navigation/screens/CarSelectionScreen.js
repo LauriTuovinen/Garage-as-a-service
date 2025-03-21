@@ -13,7 +13,7 @@ function CarSelectionScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: light.background,
+        backgroundColor:"yellow",
     },
 })
 
