@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Image, Text, StatusBar } from 'react-native';
 import { light, dark } from "../assets/colors/colors"
 import { SafeAreaView } from 'react-native-safe-area-context';
-// import {Porsche-Taycan.png} from "../../assets/images"
+
 
 
 function HomeScreen() {

@@ -3,7 +3,7 @@ import { Text, View, StyleSheet } from "react-native";
 import { light, dark } from "../assets/colors/colors";
 import { useState, useEffect } from 'react';
 import Navigation from "../components/navigation";
-import HomeScreen from '../screens/HomeScreen';
+
 
 export default function Index() {
   return (

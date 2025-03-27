@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { NavigationContainer, NavigationIndependentTree } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from '../screens/HomeScreen';
-import CarDetailsScreen from '../screens/CarDetailsScreen';
-import CarSelectionScreen from '../screens/CarSelectionScreen';
+import HomeScreen from '../Screens/HomeScreen';
+import CarDetailsScreen from '../Screens/CarDetailsScreen';
+import CarSelectionScreen from '../Screens/CarSelectionScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { light, dark } from "../assets/colors/colors"

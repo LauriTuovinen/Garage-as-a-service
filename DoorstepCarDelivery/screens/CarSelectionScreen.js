@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   StyleSheet,
   View,
   Image,
   Text,
-  StatusBar,
   FlatList,
   TouchableOpacity,
+  TextInput,
 } from "react-native";
 import { dark, light } from "../assets/colors/colors";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
+import Ionicons from "react-native-vector-icons/Ionicons";
 
 const DATA = [
   {
@@ -23,7 +24,7 @@ const DATA = [
   {
     id: 2,
     name: "911 GT3 RS",
-    fueltype: "Gasoline",
+    fueltype: "Electric",
     image: require("../assets/images/porsche-model-2.png"),
     rating: 4.5,
     price: "$120",
@@ -52,6 +53,22 @@ const DATA = [
     rating: 4.5,
     price: "$120",
   },
+  {
+    id: 6,
+    name: "Porsche Taycan",
+    fueltype: "Electric",
+    image: require("../assets/images/porsche-model-6.png"),
+    rating: 5,
+    price: "$100",
+  },
+  {
+    id: 7,
+    name: "Porsche Taycan",
+    fueltype: "Electric",
+    image: require("../assets/images/porsche-model-7.png"),
+    rating: 5,
+    price: "$100",
+  },
 ];
 const CarItem = ({ car }) => {
   return (
@@ -75,22 +92,31 @@ const CarItem = ({ car }) => {
       </TouchableOpacity>
     </View>
   );
-};
-import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { light, dark } from "../assets/colors/colors"
+}
 
-function CarSelectionScreen() {
+const CarSelectionScreen = () =>{
+  const [userInput, setUserInput] = useState("");
+
+  const filterdata = DATA.filter(car => 
+    car.fueltype.toLowerCase().includes(userInput.toLowerCase())
+  );
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <StatusBar backgroundColor={light.accent} />
-        <FlatList
-          data={DATA}
-          keyExtractor={(item) => item.id.toString()}
-          renderItem={({ item }) => <CarItem car={item} />}
-          contentContainerStyle={styles.flatListContainer} // Add some padding to the FlatList
-        />
+          <TextInput
+            style={styles.textInputContaioner}
+            placeholder="Search the Porsche"
+            value={userInput}
+            onChangeText={setUserInput}
+          />
+        <View>
+          <FlatList
+            data={filterdata}
+            keyExtractor={(item) => item.id.toString()}
+            renderItem={({ item }) => <CarItem car={item} />}
+            contentContainerStyle={styles.flatListContainer} // Add some padding to the FlatList
+          />
+        </View>
       </SafeAreaView>
     </SafeAreaProvider>
   );
@@ -100,6 +126,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: light.background,
+  },
+  textInputContaioner: {
+    borderColor: "orange",
+    borderWidth: 2,
+    paddingHorizontal: 30,
+    paddingVertical: 8,
+    borderRadius: 6,
+    marginHorizontal: 16,
+    marginTop:5,
   },
   flatListContainer: {
     padding: 10,
