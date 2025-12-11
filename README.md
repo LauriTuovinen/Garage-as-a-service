@@ -13,11 +13,11 @@ DoorstepCarDelivery is a mobile-first prototype that enables high end customers 
 ## Pictures
 App home/ navigation
 
-<img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-18-16_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
+<img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-23-32-48_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
 
 Car control  
 
-<img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-23-32-48_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">  <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-20-90_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
+<img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-18-16_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">  <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-20-90_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
 
 Subscription
 
