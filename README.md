@@ -11,18 +11,14 @@ DoorstepCarDelivery is a mobile-first prototype that enables high end customers 
 - Expo (cross-platform mobile development)
 
 ## Pictures
-App home/ navigation  
-![Home screenshot]
+App home/ navigation
 <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-18-16_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
 
 Car control  
-![car control screenshot]
 <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-23-32-48_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">  <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-20-90_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
 
 Subscription
-![Subs screenshot]
 <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-23-35-10_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
 
 Car details
-![Car detalis]
 <img src="DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-00-68_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg" style="width:30%; height:auto;">
