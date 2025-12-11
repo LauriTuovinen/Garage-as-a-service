@@ -12,7 +12,7 @@ DoorstepCarDelivery is a mobile-first prototype that enables high end customers 
 
 ## Pictures
 App home / gallery  
-![Home screenshot](DoorstepCarDelivery/assets/imagesScreenshot_2025-04-25-12-24-18-16_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg)
+![Home screenshot](DoorstepCarDelivery/assets/images/Screenshot_2025-04-25-12-24-18-16_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg)
 
 Booking flow preview  
 ![Booking screenshot](assets/images/Screenshot_2025-04-25-12-24-00-68_149f1ab0eefc35c5c7d5eaa7fb36420f.jpg)
